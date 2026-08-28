@@ -7,4 +7,10 @@ public class Main {
         miCarro.setllantas(4);
         miCarro.setnumeroPuertas(4);
 
-        }
+        System.out.println("Carro: " + miCarro.getmarca() + " " + miCarro.getmodelo()
+                + " - " + miCarro.getasientos() + " asientos - "
+                + miCarro.getnumeroPuertas() + " puertas");
+
+
+
+    }
