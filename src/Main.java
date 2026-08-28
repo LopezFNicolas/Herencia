@@ -21,6 +21,12 @@ public class Main {
                 + " - " + miCamion.getllantas() + " llantas - carga: "
                 + miCamion.getcapacidadCarga() + " kg");
 
+        Moto miMoto = new Moto();
+        miMoto.setmarca("Yamaha");
+        miMoto.setmodelo("MT-07");
+        miMoto.setllantas(2);
+        miMoto.settieneSidecar(false);
+
 
 
     }
