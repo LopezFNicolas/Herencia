@@ -27,6 +27,10 @@ public class Main {
         miMoto.setllantas(2);
         miMoto.settieneSidecar(false);
 
-
-
+        System.out.println("Moto: " + miMoto.getmarca() + " " + miMoto.getmodelo()
+                + " - " + miMoto.getllantas() + " llantas - sidecar: "
+                + miMoto.gettieneSidecar());
     }
+
+
+}
